@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>General</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Enable Auto Download</string>
+			<key>Key</key>
+			<string>pref_enable_download</string>
+			<key>DefaultValue</key>
+			<false/>
+			<key>TrueValue</key>
+			<true/>
+			<key>FalseValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Script Text Size</string>
+			<key>Key</key>
+			<string>pref_script_text_size</string>
+			<key>DefaultValue</key>
+			<integer>18</integer>
+			<key>Values</key>
+			<array>
+				<integer>10</integer>
+				<integer>12</integer>
+				<integer>14</integer>
+				<integer>16</integer>
+				<integer>18</integer>
+				<integer>20</integer>
+				<integer>22</integer>
+				<integer>24</integer>
+				<integer>26</integer>
+				<integer>28</integer>
+				<integer>30</integer>
+				<integer>32</integer>
+				<integer>34</integer>
+				<integer>36</integer>
+				<integer>38</integer>
+				<integer>40</integer>
+				<integer>42</integer>
+				<integer>44</integer>
+				<integer>46</integer>
+				<integer>48</integer>
+				<integer>50</integer>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>10</string>
+				<string>12</string>
+				<string>14</string>
+				<string>16</string>
+				<string>18</string>
+				<string>20</string>
+				<string>22</string>
+				<string>24</string>
+				<string>26</string>
+				<string>28</string>
+				<string>30</string>
+				<string>32</string>
+				<string>34</string>
+				<string>36</string>
+				<string>38</string>
+				<string>40</string>
+				<string>42</string>
+				<string>44</string>
+				<string>46</string>
+				<string>48</string>
+				<string>50</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Script Theme</string>
+			<key>Key</key>
+			<string>pref_script_theme</string>
+			<key>DefaultValue</key>
+			<integer>0</integer>
+			<key>Values</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+				<integer>4</integer>
+				<integer>5</integer>
+				<integer>6</integer>
+				<integer>7</integer>
+				<integer>8</integer>
+				<integer>9</integer>
+				<integer>10</integer>
+				<integer>11</integer>
+				<integer>12</integer>
+				<integer>13</integer>
+				<integer>14</integer>
+				<integer>15</integer>
+				<integer>16</integer>
+				<integer>17</integer>
+				<integer>18</integer>
+				<integer>19</integer>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>Black - White</string>
+				<string>White - Black</string>
+				<string>Red - White</string>
+				<string>White - Red</string>
+				<string>Orange - Black</string>
+				<string>White - Orange</string>
+				<string>Black - Orange</string>
+				<string>Black - Yellow</string>
+				<string>Green - White</string>
+				<string>Green - Black</string>
+				<string>White - green</string>
+				<string>Black - Green</string>
+				<string>LightBlue - White</string>
+				<string>White - LightBlue</string>
+				<string>Black - LightBlue</string>
+				<string>White - Blue</string>
+				<string>Pink - White</string>
+				<string>LightPurple - white</string>
+				<string>White - LightPurple</string>
+				<string>White - Purple</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Translate Language</string>
+			<key>Key</key>
+			<string>pref_translate_language</string>
+			<key>DefaultValue</key>
+			<string>zh-TW</string>
+			<key>Values</key>
+			<array>
+				<string>zh-TW</string>
+				<string>zh-CN</string>
+				<string>ko</string>
+				<string>ja</string>
+				<string>eng</string>
+				<string>vi</string>
+				<string>th</string>
+				<string>id</string>
+				<string>ms</string>
+				<string>tl</string>
+				<string>ar</string>
+				<string>ru</string>
+				<string>de</string>
+				<string>fr</string>
+				<string>es</string>
+				<string>it</string>
+				<string>bg</string>
+				<string>cs</string>
+				<string>da</string>
+				<string>nl</string>
+				<string>fi</string>
+				<string>el</string>
+				<string>iw</string>
+				<string>hi</string>
+				<string>hu</string>
+				<string>no</string>
+				<string>fa</string>
+				<string>pl</string>
+				<string>pt</string>
+				<string>sv</string>
+				<string>tr</string>
+				<string>uk</string>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>Chinese (tranditional)</string>
+				<string>Chinese (simplified)</string>
+				<string>Korean</string>
+				<string>Japanese</string>
+				<string>English</string>
+				<string>Vietnamese</string>
+				<string>Thai</string>
+				<string>Indonesian</string>
+				<string>Malay</string>
+				<string>Filipino</string>
+				<string>Arabic</string>
+				<string>Russian</string>
+				<string>German</string>
+				<string>French</string>
+				<string>Spanish</string>
+				<string>Italian</string>
+				<string>Bulgarian</string>
+				<string>Czech</string>
+				<string>Danish</string>
+				<string>Dutch</string>
+				<string>Finnish</string>
+				<string>Greek</string>
+				<string>Hebrew</string>
+				<string>Hindi</string>
+				<string>Hungarian</string>
+				<string>Norwegian</string>
+				<string>Persian</string>
+				<string>Polish</string>
+				<string>Portuguese</string>
+				<string>Swedish</string>
+				<string>Turkish</string>
+				<string>Ukrainian</string>
+			</array>
+		</dict>
+        <dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Rewind/FF Time</string>
+			<key>Key</key>
+			<string>pref_swipe_time</string>
+			<key>DefaultValue</key>
+			<integer>3</integer>
+			<key>Values</key>
+			<array>
+				<integer>3</integer>
+				<integer>4</integer>
+				<integer>5</integer>
+				<integer>6</integer>
+				<integer>7</integer>
+                <integer>8</integer>
+				<integer>9</integer>
+				<integer>10</integer>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>3 sec</string>
+                <string>4 sec</string>
+                <string>5 sec</string>
+                <string>6 sec</string>
+                <string>7 sec</string>
+                <string>8 sec</string>
+                <string>9 sec</string>
+                <string>10 sec</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Auto Delete Related Files</string>
+			<key>Key</key>
+			<string>pref_auto_delete_related_files</string>
+			<key>DefaultValue</key>
+			<integer>0</integer>
+			<key>Values</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+				<integer>4</integer>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>Never delete</string>
+				<string>Delete if file not change &gt; 5 day</string>
+				<string>Delete if file not change &gt; 10 day</string>
+				<string>Delete if file not change &gt; 15 day</string>
+				<string>Delete if file not change &gt; 20 day</string>
+			</array>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Root</string>
+</dict>
+</plist>
